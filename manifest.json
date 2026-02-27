@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Dice Roller",
+  "description": "Random dice rolls",
+  "developer_name": "Thomas Ehardt",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "diceroller_kw",
+      "type": "keyword",
+      "name": "Dice Roller",
+      "description": " Dice roller extension keyword",
+      "default_value": "dr"
+    }
+  ]
+}
